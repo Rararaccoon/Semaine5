@@ -1,0 +1,102 @@
+html, body { 
+	margin:0; 
+	padding:0;
+	background-color: #F2F2F2;
+}
+
+.conteneur {
+    max-width: 960px;
+	width: 100%;
+    padding: 10px;
+	margin-left: 15px;
+}
+
+
+/****EN-TETE****/
+
+header {
+    background-color: #11667F;
+    background-image: url("binding_dark.png");
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+img {
+	width: 200px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#titre {
+	display: inline-block;
+	color: #f2f2f2;
+	margin-top: 0px;
+}
+
+h1 {
+    font-size: 35px;
+	margin: 0;
+}
+
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/****CORPS****/
+
+main {
+    background-image: url("ticks.png");
+}
+
+#formation, #ambition, #experience {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding: 10px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+} 
+
+main ul li, main ul p {
+    color: #11667f;
+	font-family: Arial, sans-serif;
+    font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul li {
+    list-style-type: none; 
+}
+
+
+h3 {
+    color: #11667F;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #11667F;
+    background-image: url('stardust.png');
+    color: #F2F2F2;
+}
+
+footer ul {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#map {
+	width: 50%;
+	height: 300px;
+	margin-top: 20px;
+	background-color: black;
+	display: inline-block;
+}
